@@ -25,7 +25,7 @@ ExtensionsGalore is a library that extends many of the common types and classes 
 - Assumes that parsing & validations are from user input, meaning doesn't be too strict about what's supported dealing properly with whitespaces and variants.
 
 ## Best Practices
-A lot of the code in this library common from popular answers in StackOverflow or common implementations -- neatly package here, but the vast majority is my own code which I've accumulated over the last 10 years. Wherever approprivate, I left links with the references for the implementation, or the inspiration for the implementation or for the source of information that led to that implementation.
+A lot of the code in this library common from popular answers in StackOverflow or common implementations -- neatly package here, but the vast majority is my own code which I've accumulated over the last 10 years. Wherever appropriate, I left links with the references for the implementation, or the inspiration for the implementation or for the source of information that led to that implementation.
 
 
 ## Extensions Documentation
@@ -48,7 +48,7 @@ The best explanation is the source code :). I've added summary meta-data to most
 * **IsVowel**/**IsConsonant**: Indicates if it's a vowel of consonant, supports accents and most languages.
 * **IsASCIILetter**: A-Z or a-z
 * **IsASCIILetterOrDigit**: A-Z, a-z or 0-9
-* **RemoveAccent**: Returns the same version of the letter without the accent (ä => a, ñ => n)
+* **RemoveAccent**: Returns the same version of the letter without the accent (Ã¤ => a, Ã± => n)
 * **Transliterate**: Returns the latin alphabet version of a letter. This is not a great implementation and needs work.
 
 
@@ -164,7 +164,7 @@ The best explanation is the source code :). I've added summary meta-data to most
  * **TruncateEllipsis**: Truncate a string and append ellipsis.
  * **TruncatePhrase**: Truncate a string in word boundary (if possible) and append ellipsis.
  * **TruncateTrimLink**: Truncate and trim a link for display purposes ("http://www.twitter.com/calbucci?#" => "twitter.com/calbucci")
-* **RemoveAccents**: Replace accented characters with their non-accented versions ("ação" => "acao")
+* **RemoveAccents**: Replace accented characters with their non-accented versions ("aÃ§Ã£o" => "acao")
 * **Transliterate**: (Not a good implementation) Converts non-Latin characters (e.g. Hebrew, Arabic, Greek) into Latin characters.
 * **CapitalizeFirstWord**: Capitalize the first word of a sentence.
 * **CapitalizeAllWords**: Capitalize all words in a sentence.
